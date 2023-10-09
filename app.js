@@ -1,20 +1,5 @@
-const Onbutton = document.getElementById('on');
-const Offbutton = document.getElementById('off');
+function bulbOn() {
+    document.getElementById('img').src = "./images/on.jpeg"
 
-
-
-const bulb = document.getElementById('Bulb');
-
-
-
-console.log(bulb, 'Bulb')
-
-function on(){
-    bulb.src = './image/bulb on.png'
-
-}
-
-function off(){
-    bulb.src = './image/bulb off.png'
 
 }
